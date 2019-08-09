@@ -26,13 +26,14 @@ body {
 }
 
 h1 {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Alegreya Sans SC', sans-serif;
 	font-weight: 100;
 	color: white;
+  font-size: 60px;
 }
 
 h1 span {
-	font-family: 'Oswald', sans-serif;
+	/*font-family: 'Oswald', sans-serif;*/
 	font-weight: 700;
 	/*color: white;*/
 }
@@ -42,8 +43,16 @@ h1 span {
   margin: 0;
 }
 
+.menu_ul a {
+  color: white;
+}
+
+.menu_ul a:hover {
+  color: rgb(0, 123, 255);
+}
+
 .menu_item {
-	color: white;
+	/*color: white;*/
 	list-style: none;
 	display: inline;
 	margin: 0 2em;
@@ -135,7 +144,8 @@ h1 span {
 }
 
 .footer {
-
+  text-align: center;
+  margin-top: 80px;
 }
 
 .card {
@@ -170,4 +180,18 @@ h1 span {
 	/*background: black;*/
 	/*background: rgba(0, 0, 0, 0.5);*/
 	margin-left: 35px;
+}
+
+p {
+  font-family: 'Kanit', sans-serif;
+  font-size: 17px;
+}
+
+a {
+  font-family: 'Kanit', sans-serif;
+  font-size: 18px;
+}
+
+h4 {
+  font-family: 'Kanit', sans-serif;
 }
