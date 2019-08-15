@@ -27,15 +27,21 @@ body {
 
 h1 {
 	font-family: 'Alegreya Sans SC', sans-serif;
+  /*font-family: 'Raleway', sans-serif;*/
 	font-weight: 100;
 	color: white;
   font-size: 60px;
+  letter-spacing: -1px;
 }
 
 h1 span {
 	/*font-family: 'Oswald', sans-serif;*/
-	font-weight: 700;
+	font-weight: bold;
 	/*color: white;*/
+}
+
+.header_link:hover {
+  text-decoration: none;
 }
 
 .menu_ul {
@@ -77,8 +83,10 @@ h1 span {
 	right: 0;
 	left: 0;
 	z-index: 999;
-  background: black;
+  /*background: black;*/
   margin-top: -150px;
+  background: url(images/carbon.png);
+  background-repeat: repeat;
 }
 
 .inner_header {
@@ -134,7 +142,7 @@ h1 span {
 
 .avatar {
 	border-radius: 50%;
-	border: 1px white solid;
+	border: 2px black solid;
 }
 
 .all_content {
