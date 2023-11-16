@@ -19,12 +19,16 @@
 let windowWidth = window.screen.width;
 let windowHeight = window.screen.height;
 
-const heightElement = document.getElementById('wHeight');
-const widthElement = document.getElementById('wWidth');
-
 const updateWindowSize = () => {
-	widthElement.textContent = window.innerWidth;
-	heightElement.textContent = window.innerHeight;
+	// widthElement.textContent = window.innerWidth;
+	// heightElement.textContent = window.innerHeight;
+	const windowWidth = window.screen.width;
+	const cardLength = windowWidth / 2;
+	const cardChild2s = document.querySelectorAll('.card-child-2');
+	cardChild2s.forEach(element => {
+		element.style.marginTop = '-200px';
+	});
+	console.log(window.screen.width);
 }
 
 
@@ -52,6 +56,4 @@ window.addEventListener('DOMContentLoaded', () => {
 	// bodyHeight.style.marginTop = `- (${headerHeight}px + ${mainTitleHeight}px)`;
 })
 
-window.addEventListener('resize', updateWindowSize);
-
-console.log(`window width is ${windowWidth} and window height is ${windowHeight}`);
+// window.addEventListener('resize', updateWindowSize);
