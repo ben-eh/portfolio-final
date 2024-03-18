@@ -214,6 +214,14 @@ h1 {
 	position: absolute;
 	margin-top: 10em;
 	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.job-title p {
+	font-size: 12px;
+	margin-top: 1rem;
 }
 
 /* Carousel CSS */
@@ -366,6 +374,10 @@ h1 span {
 
 	.job-title {
 		margin-top: 0.5rem;
+	}
+
+	.slide {
+		bottom: 4rem;
 	}
 }
 
