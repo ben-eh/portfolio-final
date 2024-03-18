@@ -224,6 +224,7 @@ h1 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction: column;
 }
 
 .carousel {
@@ -287,11 +288,11 @@ h1 {
 }
 
 .carousel-button.prev {
-	left: 1rem;
+	left: 0.2rem;
 }
 
 .carousel-button.next {
-	right: 1rem;
+	right: 0.2rem;
 }
 
 .carousel-padding {
@@ -313,7 +314,7 @@ h1 span {
   display: flex;
   justify-content: center;
   gap: 2rem;
-  padding-top: 5rem;
+  padding-top: 2rem;
 }
 
 .white-link {
@@ -366,4 +367,8 @@ h1 span {
 	.job-title {
 		margin-top: 0.5rem;
 	}
+}
+
+.carousel-header {
+	margin-bottom: 2rem;
 }
